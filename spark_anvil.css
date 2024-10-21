@@ -4,6 +4,7 @@ body,
 .forge-flow {
   font-family: 'Open Sans', sans-serif;
   background-color: #fff;
+  color: red;
 }
 
 #page-title {
