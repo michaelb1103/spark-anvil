@@ -4,7 +4,7 @@ body,
 .forge-flow {
   font-family: 'Inter', sans-serif;
   background-color: #fff;
-  color: red;
+  color: red !important;
 }
 
 #page-title {
