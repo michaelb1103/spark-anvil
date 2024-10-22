@@ -33,9 +33,9 @@
   --webform-page-title-font-style: normal;
   --webform-page-title-font-size: 32px;
 
-  /* --webform-title-color: <color-value>; */
+  /* --webform-title-color: #292929; */
   /* --webform-page-title-underline-color: <color value>; */
-  /* --webform-page-title-underline-display: none; */
+  --webform-page-title-underline-display: none;
   /* --webform-page-title-color: <color-value>; */
 
   /******** button ********/
@@ -61,9 +61,9 @@
   --field-error-box-shadow: none;
   --field-error-background: transparent;
 
-  /* --field-error-label-background: transparent; */
-  /* --field-error-text-color: <color-value>; */
-  /* --field-label-color: <color-value>; */
+  --field-error-label-background: transparent;
+  --field-error-text-color: #CE2F3F;
+  --field-label-color: #292929;
 
   /******** field inputs ********/
   --field-input-background-color: transparent;
@@ -123,7 +123,7 @@
   /* - `.anvil-dropzone-drop-disabled` */
 
   /******** loading spinner ********/
-  /* --loading-spinner-color: <color-value>; */
+  --loading-spinner-color: #4C64D9;
   --loading-spinner-size: 24px;
   --loading-spinner-thickness: 2px;
 
