@@ -7,12 +7,12 @@
   --root-white-color: #fff;
   --root-background: var(--root-white-color);
   --root-text-color: var(--root-black-color);
-  --root-brand-color: #6002ee !important;
-  --root-brand-color-10: #b794f6;
-  --root-brand-color-20: #efe5fd;
+  --root-brand-color: #4C64D9 !important;
+  --root-brand-color-10: #2E45B7; /* darker for button hover */
+  --root-brand-color-20: #EFF1FE; /* very light background color */
   --root-green-color: #2ed27c;
   --root-green-color-10: rgba(46, 210, 124, 0.4);
-  --root-error-color: #D4414F;
+  --root-error-color: #CE2F3F;
   --root-link-color: #4C64D9;
   --root-link-hover-color: #2E45B7;
 
@@ -28,8 +28,8 @@
   /******** webform titles ********/
   --webform-title-font-weight: 600;
   --webform-title-font-style: normal;
-  --webform-title-font-size: 32px;
-  --webform-page-title-font-weight: 400;
+  --webform-title-font-size: 20px;
+  --webform-page-title-font-weight: 600;
   --webform-page-title-font-style: normal;
   --webform-page-title-font-size: 32px;
 
@@ -67,12 +67,12 @@
 
   /******** field inputs ********/
   --field-input-background-color: transparent;
-  --field-input-border: none;
-  --field-input-border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  --field-input-border: 1px solid #8C8C8C;
+  --field-input-border-bottom: none;
   --field-input-focus-box-shadow: none;
   --field-input-padding-x: 0;
-  /* --field-input-hover-border-color: <color value>; */
-  /* --field-input-focus-border-color: <color value>; *
+  --field-input-hover-border-color: #4C64D9;
+  --field-input-focus-border-color: #4C64D9;
   /* padding-y is not supported right now - use selectors to target elements you want for padding top/bottom */
 
   /******** dropdown ********/
