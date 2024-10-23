@@ -39,7 +39,6 @@
   /* --webform-page-title-color: <color-value>; */
 
   /******** button ********/
-
   --button-font-size: 14px;
   --button-font-weight: 500;
   --button-height: 40px;
@@ -80,7 +79,7 @@
   --field-optional-color: #292929;
   --field-optional-font-size: 16px;
   --field-optional-font-style: normal;
-  --field-optional-font-weight: 400;
+  --field-optional-font-weight: 600;
 
   /******** checkbox ********/
   --checkbox-border-radius: 2px;
@@ -99,7 +98,7 @@
   --radio-buttons-unselected-background: #fff;
   --radio-buttons-unselected-color: #4C64D9;
   --radio-buttons-unselected-border-color: #8C8C8C;
-  --radio-buttons-hover-background: #fff;
+  --radio-buttons-hover-background: #EFF1FE;
   --radio-buttons-hover-color: #2E45B7;
   --radio-buttons-hover-border-color: #2E45B7;
 
@@ -183,6 +182,9 @@
 #header-title {
   padding: 0;
 }
+#page-title {
+  padding-bottom: 32px;
+}
 
 .anvil-markdown strong {
   font-weight: 600;
@@ -224,4 +226,8 @@
 .anvil-radio-buttons-button {
   min-height: 40px;
   min-width: 80px;
+}
+
+.ant-select-selection-placeholder {
+  color: #666;
 }
