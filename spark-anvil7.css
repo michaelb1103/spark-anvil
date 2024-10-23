@@ -230,3 +230,11 @@
 .ant-select-selection-placeholder {
   color: #666;
 }
+
+.anvil-button, .ant-btn {
+  box-shadow: none;
+}
+
+.anvil-field-label {
+  font-weight: 600;
+}
