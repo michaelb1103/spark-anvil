@@ -39,7 +39,11 @@
   /* --webform-page-title-color: <color-value>; */
 
   /******** button ********/
-  --button-border-radius: 4px;
+
+  --button-font-size: 14px;
+  --button-font-weight: 500;
+  --button-height: 40px;
+  --button-border-radius: 20px;
   --button-disabled-background: #F3F3F3;
   --button-disabled-color: #6F6F6F;
 
@@ -90,21 +94,17 @@
   --radio-buttons-unselected-border-color: #8C8C8C;
   --radio-buttons-hover-border-color: #4C64D9;
 
-
-  
-
   /******** dropdown ********/
+  --dropdown-menu-font-size: 16px;
   --dropdown-menu-font-weight: 400;
   --dropdown-menu-style: normal;
-  --dropdown-placeholder-font-style: italic;
+  --dropdown-placeholder-font-style: normal;
   --dropdown-placeholder-font-weight: 400;
+  --dropdown-option-active-background: #EFF1FE;
+  --dropdown-placeholder-active-background: #F3F3F3;
+  --dropdown-placeholder-background: #fff;
 
-  /* --dropdown-option-active-background-color: <color-value>; */
-  /* --dropdown-menu-background-color: <color-value>; */
-  /* --dropdown-menu-color: <color-value>; */
-  /* --dropdown-placeholder-background-color: <color-value>; */
-  /* --dropdown-placeholder-color: <color-value>; */
-  /* --dropdown-placeholder-active-color: <color-value>; */
+
 
   /******** date picker ********/
   --date-picker-border: none;
@@ -186,13 +186,9 @@
   /* --review-data-card-edit-button-hover-color: <color-value>; */
 }
 
-.header-title {
+#header-title {
   padding: 0;
 }
-
-
-
-
 
 .anvil-markdown strong {
   font-weight: 600;
@@ -224,7 +220,7 @@
   padding-right: 0;
 }
 
-.anvil-list-input-item .anvil-field-label {
+.anvil-list-input-item .anvil-field-label, .form-item-description.anvil-field-description {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
