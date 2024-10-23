@@ -60,7 +60,6 @@
   --field-label-font-weight: 400;
   --field-error-box-shadow: none;
   --field-error-background: transparent;
-
   --field-error-label-background: transparent;
   --field-error-text-color: #CE2F3F;
   --field-label-color: #292929;
@@ -68,12 +67,19 @@
   /******** field inputs ********/
   --field-input-background-color: transparent;
   --field-input-border: 1px solid #8C8C8C;
-  --field-input-border-bottom: none;
+  --field-input-border-radius: 4px;
+  --field-input-height: 40px;
   --field-input-focus-box-shadow: none;
-  --field-input-padding-x: 0;
+  --field-input-padding-x: 12px;
   --field-input-hover-border-color: #4C64D9;
   --field-input-focus-border-color: #4C64D9;
-  /* padding-y is not supported right now - use selectors to target elements you want for padding top/bottom */
+  --field-optional-color: #292929;
+  --field-optional-font-size: 16px;
+  --field-optional-font-style: normal;
+  --field-optional-font-weight: 400;
+
+
+
 
   /******** dropdown ********/
   --dropdown-menu-font-weight: 400;
