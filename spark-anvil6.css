@@ -32,11 +32,9 @@
   --webform-page-title-font-weight: 700;
   --webform-page-title-font-style: normal;
   --webform-page-title-font-size: 32px;
-
-  /* --webform-title-color: #292929; */
-  /* --webform-page-title-underline-color: <color value>; */
+  --webform-title-color: #292929;
   --webform-page-title-underline-display: none;
-  /* --webform-page-title-color: <color-value>; */
+
 
   /******** button ********/
   --button-font-size: 14px;
