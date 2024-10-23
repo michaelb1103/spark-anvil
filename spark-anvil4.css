@@ -88,11 +88,21 @@
   --checkbox-checked-border-color: #2E45B7;
   --checkbox-unchecked-border-color: #8C8C8C;
 
-  /******** radio buttons ********/
-  --radio-buttons-selected-border-color: #2E45B7;
+  /******** radios ********/  
+  --radio-border-color: #8C8C8C;
   --radio-color: #2E45B7;
+
+  /******** radio buttons ********/  
+  --radio-buttons-gap: 16px;
+  --radio-buttons-selected-background: #2E45B7;
+  --radio-buttons-selected-border-color: #2E45B7;
+  --radio-buttons-unselected-background: #fff;
+  --radio-buttons-unselected-color: #4C64D9;
   --radio-buttons-unselected-border-color: #8C8C8C;
-  --radio-buttons-hover-border-color: #4C64D9;
+  --radio-buttons-hover-background: #fff;
+  --radio-buttons-hover-color: #2E45B7;
+  --radio-buttons-hover-border-color: #2E45B7;
+
 
   /******** dropdown ********/
   --dropdown-menu-font-size: 16px;
@@ -103,8 +113,6 @@
   --dropdown-option-active-background: #EFF1FE;
   --dropdown-placeholder-active-background: #F3F3F3;
   --dropdown-placeholder-background: #fff;
-
-
 
   /******** date picker ********/
   --date-picker-border: none;
@@ -144,20 +152,6 @@
   --loading-spinner-color: #4C64D9;
   --loading-spinner-size: 24px;
   --loading-spinner-thickness: 2px;
-
-  /******** checkboxes ********/
-  /* --checkbox-checked-background: <color-value>; */
-  /* --checkbox-checked-border-color: <color-value>; */
-  /* --checkbox-check-hover-border-color: <color-value>; */
-
-  /* --checkbox-checked-border: 1px solid var(--root-primary-color); */
-  /* --checkbox-border-radius: 50%; */
-
-  /******** radio buttons ********/
-  /* --radio-buttons-selected-background: <color-value>; */
-  /* --radio-buttons-selected-color: <color-value>; */
-  /* --radio-buttons-unselected-background-color: <color-value>; */
-  /* --radio-buttons-unselected-color: <color-value>; */
 
   /******** content card ********/
   --content-card-background: transparent;
@@ -225,4 +219,9 @@
   font-style: normal;
   font-weight: 400;
   color: #292929;
+}
+
+.anvil-radio-buttons-button {
+  min-height: 40px;
+  min-width: 80px;
 }
