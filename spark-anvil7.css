@@ -182,6 +182,7 @@
 }
 #page-title {
   padding-bottom: 32px;
+  margin-bottom: 0;
 }
 
 .anvil-markdown strong {
